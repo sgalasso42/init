@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+echo "user name :"
+read name
+passwd -l $name
+pgrep -u $name
+userdel -r $name
+echo $name "has been deleted !"

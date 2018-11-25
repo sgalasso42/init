@@ -1,0 +1,3 @@
+pour changer  d'utilisateur tu fait :
+su - "username"
+whoami pour checker si c'est bon

@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+echo "entrez un nombre :"
+read nb
+echo le carre de $nb est : "$(($nb * $nb))"
+echo "init c'est vraiment nul !"
